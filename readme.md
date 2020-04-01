@@ -12,11 +12,11 @@
 ### cd gcc-4.9.3
 ### ./contrib/download_prerequisites
 ### 安装gcc需要5个组件，download_prerequisites 的任务就是下载这些组件分别是：
-### *cloog-0.18.1*
-### *gmp-4.3.2*
-### *isl-0.12.2*
-### *mpc-0.8.1*
-### *mpfr-2.4.2*
+### ·*cloog-0.18.1*
+### ·*gmp-4.3.2*
+### ·*isl-0.12.2*
+### ·*mpc-0.8.1*
+### ·*mpfr-2.4.2*
 ### 如果遇到download_prerequisites里面的地址无法访问 
 ### 推荐自行下载这些组件到目录gcc-4.9.3/，解压。 
 ### 然后将download_prerequisites里面的wget全部注释掉，再执行 :
