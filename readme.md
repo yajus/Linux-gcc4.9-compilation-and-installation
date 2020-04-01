@@ -8,19 +8,24 @@
 
 # 第三步
 ### 解压文件，做一些准备工作（编译安装gcc编译的依赖文件）
-### '<tar xjvf gcc-4.9.3.tar.bz2>'
+
+### tar xjvf gcc-4.9.3.tar.bz2
 ### cd gcc-4.9.3
 ### ./contrib/download_prerequisites
+
 ### 安装gcc需要5个组件，download_prerequisites 的任务就是下载这些组件分别是：
+
 ### ·*cloog-0.18.1*
 ### ·*gmp-4.3.2*
 ### ·*isl-0.12.2*
 ### ·*mpc-0.8.1*
 ### ·*mpfr-2.4.2*
+
 ### 如果遇到download_prerequisites里面的地址无法访问 
 ### 推荐自行下载这些组件到目录gcc-4.9.3/，解压。 
 ### 然后将download_prerequisites里面的wget全部注释掉，再执行 :
 ### ./contrib/download_prerequisites
+
 ### 做好上面的准备就可以configure了，建议另建一个目录来存放编译文件，默认安装目录是 /usr/local/ 可以使用 –prefix 修改安装路径。
 ### cd ..
 ### mkdir gcc-4.9.3-build-temp
@@ -32,6 +37,8 @@
 
 # 第四步
 ### 配置环境
+### export PATH=/data1/gcc-4.9.3/bin:$PATH
+
 ### 执行 gcc -v 可以看到下面的信息, 恭喜你成功了!
 ### gcc -v
 #### 使用内建 specs。
