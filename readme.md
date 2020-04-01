@@ -8,7 +8,7 @@
 
 # 第三步
 ### 解压文件，做一些准备工作（编译安装gcc编译的依赖文件）
-### tar xjvf gcc-4.9.3.tar.bz2
+### `tar xjvf gcc-4.9.3.tar.bz2‘
 ### cd gcc-4.9.3
 ### ./contrib/download_prerequisites
 ### 安装gcc需要5个组件，download_prerequisites 的任务就是下载这些组件分别是：
